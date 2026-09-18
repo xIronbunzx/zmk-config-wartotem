@@ -1,3 +1,7 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+
 config SHIELD_WARTOTEM_LEFT
     def_bool $(shields_list_contains,wartotem_left)
 
