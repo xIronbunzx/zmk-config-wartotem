@@ -227,9 +227,9 @@ ZMK_CONDITIONAL_LAYER(sys, 2 1, 8)
 //		----------------------------------------------		--------------------------------------------------
        &kp C_MUTE  &kp Q   &kp W   &kp E   &kp R   &kp T   	 &kp Y  &kp U   &kp I   &kp O   &kp P   &kp HOME
 //		----------------------------------------------		--------------------------------------------------
-       &kp LCTRL   &kp A   &kp S   &kp D   &kp F   &kp G   	 &kp H  &kp J   &kp K   &kp L &kp SEMI  &kp DEL
+       &kp LCTRL &hml LGUI A &hml LALT S &hml LCTRL D &hml LSHFT F &kp G &kp H  &hmr RSHFT J &hmr RCTRL K &hmr RALT L &hmr RGUI SQT &kp DEL
 //		----------------------------------------------		--------------------------------------------------
-       &kp ESC   &kp Z   &kp X   &kp C   &kp V   &kp B  	 &kp N  &kp M &kp COMMA &kp DOT &kp FSLH &kp BSPC
+       &kp ESC   &kp Z   &kp X   &kp C   &kp V   &kp B  	 &kp N  &kp M  &comma_semi  &dot_colon  &qu_exc  &kp BSPC
 //		-----------------------------------------------		-------------------------------------------------
 		&lt 2 TAB  &lt 3 BSPC  &lt 1 SPACE  &kp LSHFT  	 	&kp RCTRL  &lt 1 RET  SMART_NUM  MAGIC_SHIFT
 //				         ------------------------------		----------------------------
